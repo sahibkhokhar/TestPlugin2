@@ -4,4 +4,7 @@ main: io.github.sahibkhokhar.TestPlugin2
 description: A test plugin number 2
 author: Sahib Khokhar
 api-version: 1.19
-commmands:
+commands:
+  craft:
+    description: Opens inv
+    usage: /<command>

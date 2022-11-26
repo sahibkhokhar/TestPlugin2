@@ -11,6 +11,7 @@ public class TestPlugin2 extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
+        this.getCommand("craft").setExecutor(new CommandCraft());
     }
 
     @EventHandler
